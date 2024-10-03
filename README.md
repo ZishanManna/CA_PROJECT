@@ -22,7 +22,7 @@ The following image provides an overview of the micro-architecture design for th
    - Stores program instructions in a 32x32 memory block.
    - Fetches the instruction corresponding to the current program counter address.
 
-![PROGRAM_MEMORY](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/memory.drawio.png)
+![PROGRAM_MEMORY](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/memory.png)
 
 3. **INSTRUCTION_DECODER**:
    - Decodes the 32-bit instruction into its component fields.
