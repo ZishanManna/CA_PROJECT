@@ -16,6 +16,7 @@ The following image provides an overview of the micro-architecture design for th
 1. **PROGRAM_COUNTER**:
    - Controls the program flow by maintaining the current instruction address.
    - Can reset or hold the program counter value based on specific control signals (e.g., HALT).
+![PROGRAM_COUNTER](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/counter_image.drawio.png)
 
 2. **PROGRAM_MEMORY**:
    - Stores program instructions in a 32x32 memory block.
