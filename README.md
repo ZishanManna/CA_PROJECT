@@ -4,6 +4,10 @@
 
 This repository contains a Verilog-based implementation of a custom CPU architecture. The project aims to demonstrate basic CPU operations, including instruction fetching, decoding, register manipulation, and ALU computations. The CPU design is modular, making it easy to understand and extend for future enhancements.
 
+## Micro-Architecture Overview
+
+The following image provides an overview of the micro-architecture design for the project:
+
 ![Micro Architecture](https://github.com/ZishanManna/CA_PROJECT/raw/main/CA_PROJECT%201_MICRO-ARCHITECTURE.jpg)
 
 ## Project Structure
