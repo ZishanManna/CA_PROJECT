@@ -27,7 +27,7 @@ The following image provides an overview of the micro-architecture design for th
 3. **INSTRUCTION_DECODER**:
    - Decodes the 32-bit instruction into its component fields.
    - Extracts opcode, function codes, register addresses, and immediate values.
-![INSTRUCTION_DECODER]()
+![INSTRUCTION_DECODER](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/instruction_decoder.drawio.png)
 4. **REGISTER_FILE**:
    - Consists of 32 registers, each 32 bits wide.
    - Facilitates reading and writing operations based on control signals.
