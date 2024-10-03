@@ -8,7 +8,7 @@ This repository contains a Verilog-based implementation of a custom CPU architec
 
 The following image provides an overview of the micro-architecture design for the project:
 
-![Micro Architecture](https://github.com/ZishanManna/CA_PROJECT/raw/main/CA_PROJECT%201_MICRO-ARCHITECTURE.jpg)
+![Micro Architecture](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/CA_PROJECT%201_MICRO-ARCHITECTURE.jpg)
 
 ## Project Structure
 
