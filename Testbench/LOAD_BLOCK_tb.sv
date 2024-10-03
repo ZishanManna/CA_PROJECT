@@ -47,7 +47,7 @@ module LOAD_BLOCK_tb;
     #10;                     // Expect Data_In_RF unchanged and wr_en_RF = 0
 
     // Test ALU_OPERATION
-    ALU_OUT = 32'hDEAD_BEEF; // ALU Output value
+    ALU_OUT = 32'hABCD_1234; // ALU Output value
     OPCODE = 7'b0110011;     // Set ALU_OPERATION opcode
     #10;                     // Expect Data_In_RF = ALU_OUT and wr_en_RF = 1
 
