@@ -44,6 +44,8 @@ The following image provides an overview of the micro-architecture design for th
    - Handles `LOAD_IMM` and other data transfer instructions.
    - Updates register file contents based on the immediate values or ALU outputs.
 
+![LOAD_BLOCK](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/load_block.drawio.png)
+
 7. **CA_PROJECT (Top Module)**:
    - Integrates all submodules to create a complete CPU.
    - Manages the flow of data between the program counter, instruction memory, register file, ALU, and load block.
