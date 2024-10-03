@@ -28,14 +28,17 @@ The following image provides an overview of the micro-architecture design for th
    - Decodes the 32-bit instruction into its component fields.
    - Extracts opcode, function codes, register addresses, and immediate values.
 ![INSTRUCTION_DECODER](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/instruction_decoder.drawio.png)
+
 4. **REGISTER_FILE**:
    - Consists of 32 registers, each 32 bits wide.
    - Facilitates reading and writing operations based on control signals.
    - Provides operands to the ALU based on the decoded instruction.
+![REGISTER_FILE](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/register_file.drawio.png)
 
 5. **ALU (Arithmetic Logic Unit)**:
    - Performs basic arithmetic and logic operations like addition, subtraction, AND, OR, and XOR.
    - The operation is determined based on the function codes (FUNC3 and FUNC7) and the opcode.
+![ALU (Arithmetic Logic Unit)](https://github.com/ZishanManna/CA_PROJECT/blob/main/Documentation/alu.drawio.png)
 
 6. **LOAD_BLOCK**:
    - Handles `LOAD_IMM` and other data transfer instructions.
